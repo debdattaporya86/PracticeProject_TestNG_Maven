@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23528" started-at="2021-09-04T20:22:42 EDT" finished-at="2021-09-04T20:23:05 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23528" started-at="2021-09-04T20:22:42 EDT" finished-at="2021-09-04T20:23:05 EDT">
+      <class name="com.debdatta.ExtendReportTestNG">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.debdatta.ExtendReportTestNG@1d29cf23]" name="setup" is-config="true" duration-ms="1969" started-at="2021-09-04T20:22:40 EDT" finished-at="2021-09-04T20:22:42 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.debdatta.ExtendReportTestNG@1d29cf23]" name="test2" duration-ms="14684" started-at="2021-09-04T20:22:42 EDT" finished-at="2021-09-04T20:22:56 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test1()[pri:1, instance:com.debdatta.ExtendReportTestNG@1d29cf23]" name="test1" duration-ms="5100" started-at="2021-09-04T20:22:56 EDT" finished-at="2021-09-04T20:23:02 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.debdatta.ExtendReportTestNG@1d29cf23]" name="tearDown" is-config="true" duration-ms="923" started-at="2021-09-04T20:23:05 EDT" finished-at="2021-09-04T20:23:06 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.debdatta.ExtendReportTestNG -->
+      <class name="com.debdatta.TestNGMavenTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.debdatta.TestNGMavenTest@5f282abb]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-09-04T20:23:02 EDT" finished-at="2021-09-04T20:23:02 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="salesforceLogin(java.lang.String, java.lang.String)[pri:0, instance:com.debdatta.TestNGMavenTest@5f282abb]" name="salesforceLogin" duration-ms="1859" started-at="2021-09-04T20:23:02 EDT" data-provider="dp" finished-at="2021-09-04T20:23:03 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[debdattaporya86@curious-narwhal-21tggr.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Apple@2021]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- salesforceLogin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.debdatta.TestNGMavenTest@5f282abb]" name="afterMethod" is-config="true" duration-ms="63" started-at="2021-09-04T20:23:03 EDT" finished-at="2021-09-04T20:23:03 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.debdatta.TestNGMavenTest@5f282abb]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-09-04T20:23:03 EDT" finished-at="2021-09-04T20:23:03 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="salesforceLogin(java.lang.String, java.lang.String)[pri:0, instance:com.debdatta.TestNGMavenTest@5f282abb]" name="salesforceLogin" duration-ms="1729" started-at="2021-09-04T20:23:03 EDT" data-provider="dp" finished-at="2021-09-04T20:23:05 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gopal_poria@salesforce-practice.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Covid@2021]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- salesforceLogin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.debdatta.TestNGMavenTest@5f282abb]" name="afterMethod" is-config="true" duration-ms="60" started-at="2021-09-04T20:23:05 EDT" finished-at="2021-09-04T20:23:05 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.debdatta.TestNGMavenTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
