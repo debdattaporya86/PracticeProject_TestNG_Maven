@@ -25,6 +25,10 @@ public class ExtendReportTestNG2 {
 	 ExtentReports extent;
 	 ExtentTest test1,test2;
 	 
+	 ExtentSparkReporter htmlReporter1;
+	 ExtentReports extent1;
+	 ExtentTest test11,test21;
+	 
 	@BeforeSuite
 	public void setup() {
 	  htmlReporter = new ExtentSparkReporter("extentReport.html");
